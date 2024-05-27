@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;;
+}
+body{
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  width: 800px;
+  justify-content: center;
+  text-align: center;
+}
+.head-box{
+  margin-top: 10px;
+  background-color:antiquewhite;
+  padding: 20px;
+}
+.weather-box{
+  margin-top: 20px;
+  
+  background-color:antiquewhite;
+  padding: 20px;
+}
+form{
+  display: flex;
+  margin: 20px;
+  
+  margin-top: 20px;
+}
+form input{
+  height: 5vh;
+  padding: 8px;
+  margin-right: 20px;
+  flex-basis: 80%;
+}
+form button{
+  height: 8vh;
+  justify-content: center;
+  flex-basis: 20%;
+  
+}
+
+.output{
+  margin-top: 50px;
+}
