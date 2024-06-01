@@ -14,14 +14,14 @@ body{
 }
 .head-box{
   margin-top: 10px;
-  background-color:antiquewhite;
+  background-color:rgb(38, 120, 187);
   padding: 20px;
 }
 .weather-box{
   margin-top: 20px;
-  
-  background-color:antiquewhite;
+  background-color:rgb(38, 120, 187);
   padding: 20px;
+  color: black;
 }
 form{
   display: flex;
@@ -44,4 +44,9 @@ form button{
 
 .output{
   margin-top: 50px;
+}
+
+.txt{
+  font-weight: 500;
+  text-transform: capitalize;
 }
